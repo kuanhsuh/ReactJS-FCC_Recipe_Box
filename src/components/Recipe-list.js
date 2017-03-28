@@ -20,15 +20,13 @@ class Recipelist extends Component {
                   <RecipeListItem ingredients={recipe.ingredients}/>
                 </Col>
                 <Col xs={6}>
-                  {/* <img alt="demo" src={"http://loremflickr.com/250/150/" + recipe.name} responsive/> */}
-                   {/* <Image src="http://placehold.it/350x150" responsive /> */}
-                   <Image src={"http://loremflickr.com/250/150/" + recipe.name} responsive />
+                   <Image src={"http://loremflickr.com/350/200/" + recipe.name} responsive />
                 </Col>
               </Row>
               <br/>
               <Row className="show-grid">
-                 <Col xs={2} xsOffset={10}>
-                   <ButtonToolbar>
+                 <Col xs={4} xsOffset={8} md={2} mdOffset={10} >
+                   <ButtonToolbar className="text-center">
                      <EditForm
                        editrecipe={editrecipe}
                        recipe={recipe}

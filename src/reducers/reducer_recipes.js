@@ -1,9 +1,9 @@
 import {ADD_RECIPE, DELETE_RECIPE, EDIT_RECIPE} from '../constants/ActionTypes'
 
 const initialState = [
-  {name: 'Veggie Soup', ingredients: ['Carrot', 'Beef', 'Water']},
-  {name: 'Steak', ingredients: ['Carrot', 'Beef', 'Pepper']},
-  {name: 'Grilled Chicken', ingredients: ['Chicken', 'Salt', 'Water']},
+  {name: 'Sushi', ingredients: ['3 tablespoons rice vinegar', '4 sheets nori (dry seaweed)', '1/2 cucumber, sliced into thin strips']},
+  {name: 'Chicken Pie', ingredients: ['1 lb skinless, boneless chicken breast', '1 cup sliced carrots', '1 cup frozen green peas', '1/2 cup sliced celery']},
+  {name: 'Stripe Steak', ingredients: ['4 (1/2 pound) strip steaks', 'Salt', 'Pepper', '1 teaspoon Mustard', '3 tablespoon lemon juice']},
 ];
 
 
