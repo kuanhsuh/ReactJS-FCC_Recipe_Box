@@ -7,11 +7,11 @@ import { Provider } from 'react-redux';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 
-const persistedState = localStorage.getItem('reduxState') ? JSON.parse(localStorage.getItem('reduxState')) : {}
+const persistedState = localStorage.getItem(' _username_recipes') ? JSON.parse(localStorage.getItem(' _username_recipes')) : {}
 
 const store = createStore(reducer, persistedState);
 store.subscribe(()=>{
-  localStorage.setItem('reduxState', JSON.stringify(store.getState()))
+  localStorage.setItem(' _username_recipes', JSON.stringify(store.getState()))
 })
 ReactDOM.render(
   <Provider store={store}>
