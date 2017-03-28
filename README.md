@@ -20,4 +20,4 @@ Project Demo: (http://fcc-react-recipebox.surge.sh)
 FCC Project Page: (https://www.freecodecamp.com/challenges/build-a-recipe-box)
 
 ### Video Walkthrough
-![](https://github.com/kuanhsuh/jscalculator/blob/master/demo.gif)
+![](https://github.com/kuanhsuh/ReactJS-FCC_Recipe_Box/blob/master/demo.gif?raw=true)
