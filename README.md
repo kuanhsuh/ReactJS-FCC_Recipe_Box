@@ -15,8 +15,15 @@ Hint: You should prefix your local storage keys on CodePen, i.e. _username_recip
 
 
 ### Progress
+Completed:
+
 Build, Footer, Recipe list, recipe list item static component
 Finish View Function
 Add modal to Footer
+Add Item Feature
+Delete Feature
+Photo connect API
 
-Add Item to state
+Progress:
+Edit Feature
+local storage

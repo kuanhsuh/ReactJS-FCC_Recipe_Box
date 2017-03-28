@@ -3,16 +3,17 @@ import React, { Component,PropTypes } from 'react';
 import { Modal, Button, FormControl } from 'react-bootstrap';
 
 
-class Footer extends Component {
+class AddForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
       showModal: false,
       recipe: {
         name: "",
-        ingredients: ""
+        ingredients:  ""
       }
     };
+
   }
 
   close = ()=>{
@@ -36,6 +37,7 @@ class Footer extends Component {
 
   handleSave = () => {
     const recipe = this.state.recipe;
+
     recipe.ingredients = recipe.ingredients.split(",")
     this.props.addrecipe(recipe)
     this.setState({
@@ -47,12 +49,13 @@ class Footer extends Component {
     })
   }
   render() {
-    const {name, ingredients} = this.state.recipe;
+    const { name, ingredients } = this.state.recipe;
+    // eslint-disable-next-line
+    const { formaction, style, size } = this.props;
 
 
     return (
       <div>
-
         <Button
           bsStyle="primary"
           bsSize="large"
@@ -95,8 +98,8 @@ class Footer extends Component {
   }
 }
 
-Footer.propTypes = {
+AddForm.propTypes = {
   addrecipe: PropTypes.func.isRequired,
 }
 
-export default Footer;
+export default AddForm;
